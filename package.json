@@ -1,0 +1,25 @@
+{
+  "name": "project-overseer-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "npx tailwindcss -i ./src/input.css -o ./dist/assets/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irritatingtyper/Project-Overseer-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irritatingtyper/Project-Overseer-Website/issues"
+  },
+  "homepage": "https://github.com/irritatingtyper/Project-Overseer-Website#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+  
+}
